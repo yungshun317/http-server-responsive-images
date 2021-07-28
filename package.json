@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/yungshun317/http-server-responsive-images/issues"
   },
-  "homepage": "https://github.com/yungshun317/http-server-responsive-images#readme"
+  "homepage": "https://github.com/yungshun317/http-server-responsive-images#readme",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "node-static": "^0.7.11"
+  }
 }
