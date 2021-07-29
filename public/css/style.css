@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: #061117;
+}
+
+.asset-1 {
+    display: block;
+}
+
+.asset-2 {
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    .asset-1 {
+        display: none;
+    }
+    .asset-2 {
+        display: block;
+    }
+}
